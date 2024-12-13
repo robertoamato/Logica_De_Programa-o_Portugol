@@ -18,15 +18,19 @@ programa
 
 		limpa()
 
-		nota_final= nota1 + nota2
+		nota_final= (nota1 + nota2) /2
 
 		se (nota_final >= 6 ){
-			escreva(" aluno aprovado")
+			escreva(" aluno aprovado \n" + nota_final)
 			
 			}
-		senao{
-			escreva ("aluno reprovado")
-			}	
+		senao se(nota_final >=5 ){
+			escreva ("aluno em recuperacao \n" + nota_final)
+			}
+			senao{
+				escreva(" aluno reprovado \n" + nota_final )
+				
+				}	
 		
 	}
 }
@@ -35,7 +39,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 353; 
+ * @POSICAO-CURSOR = 543; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
