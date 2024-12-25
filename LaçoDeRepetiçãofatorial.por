@@ -41,7 +41,7 @@ programa
 {
 	funcao inicio()
 	{
-		inteiro numero, atual = 1, fatorial = 1
+		inteiro numero, atual = 2, fatorial = 1
 		
 		escreva("Digite um numero: ")
 		leia(numero)
@@ -61,7 +61,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1359; 
+ * @POSICAO-CURSOR = 1345; 
  * @DOBRAMENTO-CODIGO = [1];
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
