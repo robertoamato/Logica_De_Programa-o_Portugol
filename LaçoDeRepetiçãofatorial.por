@@ -41,7 +41,7 @@ programa
 {
 	funcao inicio()
 	{
-		inteiro numero, atual = 5, fatorial = 1
+		inteiro numero, atual = 6, fatorial = 1
 		
 		escreva("Digite um numero: ")
 		leia(numero)
