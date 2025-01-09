@@ -4,7 +4,7 @@ programa
 	funcao inicio()
 	{
 		inteiro numero = 10 , contador , resultado
-		para(contador =1; contador <= 10 ; contador ++){
+		para(contador =10; contador >= 1 ; contador --){
 		resultado = contador* numero
 		escreva(+numero+ " x " + contador+ " = " + resultado+ " \n" )
 			
@@ -21,7 +21,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 225; 
+ * @POSICAO-CURSOR = 117; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
