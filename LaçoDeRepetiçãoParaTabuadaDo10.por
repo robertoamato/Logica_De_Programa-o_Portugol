@@ -3,7 +3,7 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro numero = 11 , contador , resultado
+		inteiro numero = 12 , contador , resultado
 		para(contador =10; contador >= 1 ; contador --){
 		resultado = contador* numero
 		escreva(+numero+ " x " + contador+ " = " + resultado+ " \n" )
